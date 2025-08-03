@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tetris HTML</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Tetris HTML</h1>
+  <div id="game">
+    <canvas id="tetris" width="240" height="400"></canvas>
+  </div>
+  <div id="info">
+    <p>Puntuación: <span id="score">0</span></p>
+    <p>Nivel: <span id="level">1</span></p>
+    <p>Presiona <strong>P</strong> para pausar</p>
+  </div>
+  <audio id="music" src="music.mp3" loop autoplay></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
